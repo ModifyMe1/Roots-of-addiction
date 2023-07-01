@@ -123,8 +123,8 @@ li a:hover {
   position: absolute;
   z-index: 4; /* green box will be above black box */
   background: lightgreen;
-  max-width: 35%;
-  padding:2
+  max-width:200;
+  padding:2;
   left: 10px;
   top: 600px;
   height: auto;
