@@ -3,6 +3,7 @@
 
 .welcome {
   margin-left:39%;
+  padding:2;
   background-color:rgb(175,270,200);
   font-family:Copperplate, Papyrus, fantasy;
   text-align: center;
@@ -27,7 +28,7 @@ a:hover {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2;
   width: 38%;
   background-color: #66ad1f;
   position: fixed;
@@ -74,7 +75,7 @@ li a:hover {
   /* Existing button styles */
   background-color: green;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
