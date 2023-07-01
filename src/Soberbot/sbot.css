@@ -1,0 +1,41 @@
+/* Basic styling for the pages */
+body {
+ margin-left:20%;
+  background-color:rgb(175,270,200);
+  font-family: "Digital-7", Arial, sans-serif;
+
+  text-align: center;
+  text-color:rgb(128, 128, 0);
+}
+
+header, main, footer {
+  padding: 20px;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+/* Chat container styling */
+/* Add this code to your CSS file or <style> section */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* Chat container styling,scroll, height , border,font, Id-selctors added chat-log,user-message, send-button */
+#chat-log {                 
+  height: 200px;
+  overflow-y: scroll;                      
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-family: "Orbitron", Arial, sans-serif;
+}
+
+#user-message {
+  flex-grow: 1;
+  padding: 5px;
+  font-family: "Orbitron", Arial, sans-serif;
+}
+
+
+#send-button {
+  margin-left: 10px;
+}

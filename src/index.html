@@ -1,17 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--html xmlns="http://www.w3.org/TR/xhtml2" xml:lang="en" lang="en">-->
+	<head>
+		<script src="https://kit.fontawesome.com/c357e21ff1.js" crossorigin="anonymous"></script>       
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Roots of Addiction</title> 
+		<Link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '786371832966172',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v17.0'
+    });
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
+        <script>
+		function myPopup2() {
+               window.open( "Soberbot/sbot.html", "myWindow", 
+                   "status = 1, height = 600, width = 300, resizable = 0" )
+            }
+        </script>
+		<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+</script>
+	<!--- added bot function above and got jquery to work finally by pulling googles ajax jquery.com doesn't work!!-->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
 </head>
+	<body>
+		<nav>
+	   	  <ul>
+            <li><a href="index_r2.html">Home</a></li>
+            <li><a href="Workshops.html">Workshops</a></li>
+            <li><a href="CBT.html">CBT practice</a></li>
+		    <li><a href="Cdata.html">Stats</a></li>
+            <li><a href="Emergency.html">24/7 Support</a></li>
+		    <img src="images/Coffee3.jpg" width="150" height="200" alt="picture of dog&coffee">
+                <form>
+                  <input type="button" onClick="myPopup2()" value="Try Sober Bot 1.0!" class="green-button">
+                </form>
+		  </ul>
+		       
+		</nav>
+		<!-- recent list change here in unit 4 from contacts to CBT practice page and update to 
+		page link names-->
+		
+	<main>
+	    <div class="welcome"> 
+	       <h1>Welcome to Roots of Addiction!</h1>
+	       <h2>Addiction</h2>
+              <p id="welcome"> So, what is addiction? 
+		          The word itself dates back over hundreds of years!
+	          </p>
+		
+			<div class="echos">
+		      <h3>Echos of Bondage</h3>
+		        <p><button>Click me</button>
+                   An Old Latin definition, part of research done on the origin of the word
+		           in the <a href="https://www.tandfonline.com/doi/full/10.1080/16066359.2018.1543412">
+			       Journal of Addiction Research & Theory:</a>
+	      	    </p>   
+	   	        <blockquote cite=  "https://www.tandfonline.com/doi/full/10.1080/16066359.2018.1543412">		  		    
+			       <h2>'Addictio'</h2>
+			         "...was the technical Latin term for the judicial act
+			         by which a debtor was made the slave of his creditor."		     
+			         Richard J. Rosenthal & Suzanne Faris(2019)
+		        </blockquote>
+	            <p>
+		          <h3>Drugs and Alcohol, How do we get hijacked by this stuff?</h3>
+		             Research into addiction science includes many different aspects, it is a complex and enormous field of study.
+		             The theories within narrow in a common theme in addiction studies, self-esteem.
+     	        </p>
+				                                           <!-- here below is my new javascript popup, just what I wanted, 
+														   I got it from http://www.tizag.com/javascriptT/javascriptpopups.php 
+				                                           I changed the script head element to a relative linked page where I 
+														   will construct my bots script!, I hope! -->
+				
+			</div>	                                        <!-- bot trigger added-->			
+			<div class="global">
+		          <h3>A Global Problem</h3>
+				   <p>
+				     Self-esteem, in particular low self-esteem, has been proven to be a main component of addiction.
+				     Since most of us experinece low-self esteem at times, how we can avoid being pulled into addictive behaviours?
+				     Our congnitions of ourselves and our self talk affect our self-esteem. One strategy that has been proven to help
+				     change internal perceptions is <a href="Contact.html">Cognitive Behavioural Thearapy</a> a form of psycotherapy
+					 you can learn to do yourself or have a professional help you with.<br><br>
+					 
+		             "In fact, it’s estimated that roughly 85% of people worldwide (adults and adolescents) have low self-esteem."			     
+		             <a href="https://www.psychologytoday.com/ca/blog/sustainable-life-satisfaction/201906/the-relationship-yourself">Psychology Today<a/>
+				   </p>
+			</div>
+			<div class="support">
+		            <h2>If you need help reach out there are plenty of 24/7 supports you can speak with annoymously even</h2> 
+					<p>                                         <!-- emergency button is highlighted to puls or fa beat thanks to fontawesome!-->
+				        I need to speak to someone  right away!<br>		  	
+		                <a href="Emergency.html"><i class="fa-solid fa-kit-medical fa-beat"> 24/7 supports</i></a>			      
+	                </p>	
+                    <p>		                                     <!-- custom links from major authorities on addicitons-->
+		                Learn about addiction<a href=https://www.apa.org/topics/substance-use-abuse-addiction>American Psychological Association</a>
+				        also a link to Self-Empowering Addiction Treatment Association (SEATA)<br>
+				        <a href=http://www.seatainfo.org/> Psychological Association Division 50</a>
+				    </p>
+			</div>
+			
+ 
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
-
+    </main>             <!-- added a main tag below the nav list for clean up-->   			
+	</body>
 </html>
+
+	<!--<i class="fa-solid fa-mug-hot fa-beat">-->
+

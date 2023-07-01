@@ -1,0 +1,147 @@
+/* my base font and color and h1 settings */
+
+
+.welcome {
+  margin-left:25%;
+  background-color:rgb(175,270,200);
+  font-family:Copperplate, Papyrus, fantasy;
+  text-align: center;
+  text-color:rgb(128, 128, 0);
+} 
+/*headers in shadow text feature*/
+
+h1 {
+  margin-left: 20px;
+  text-shadow: 2px 2px 5px rgb(128, 128, 0);
+}
+h2 {
+  margin-left: 20px;
+  text-shadow: 2px 2px 5px rgb(69, 75, 27);
+}
+
+/* adapted to css file from syle tag,retrieved from java-scripts.net, hex color matched to best green*/ 
+a:hover {
+	background-color:#03925e;
+}
+/*navigation followed W3 tutorial outline */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #66ad1f;
+  position: fixed;
+  height: 100%;
+  overflow:auto;
+  transition: width 0.3;
+  
+}
+	
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+/*fought forever to get these guys where I liked em' trial and error */
+li {
+	text-align:center;
+	border-bottom: 1px solid #555;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+li a.active {
+	background-color: #04AA6D;
+	color: white;
+}
+
+li a:hover:not(.active){
+	background-color: #555;
+	color: white;
+}
+
+
+/* Change the link color on hover W3 Schools css tutorial */
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+/* echos div */
+.green-button {
+  /* Existing button styles */
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  
+  /* Font styles */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.green-button:hover {
+  background-color: darkgreen;
+}
+
+
+.echos {
+  position: relative;
+  z-index: 1;
+  background: #79db16;
+  height: 250px;
+  width:auto;
+  margin: 30px;
+  overflow: auto;
+}
+/* global div*/
+
+.global {
+  position: sticky;
+  z-index: 3; /* green box will be above black box & ITS NOT WORKING RIGHT!!!!*/
+  background:#83ff08 ;
+  width: auto;
+  margin-left:30%;
+  top: 500px;
+  height: auto;
+  overflow: auto;
+  
+}
+/* support div */
+.support   {
+  position: absolute;
+  z-index: 4; /* green box will be above black box */
+  background: lightgreen;
+  max-width: 35%;
+  left: 70px;
+  top: 600px;
+  height: auto;
+  overflow: auto;
+}
+
+/*The buttons class and subs for my esteem-ops workshops */
+.btn {
+	padding: 10px;
+	color: white;
+}
+.btn-1 {background-color: green;}
+.btn-2 {background-color: blue;}
+.btn-3 {background-color: purple;}
+.centered-button {
+  display: block;
+  margin: 0 auto;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
